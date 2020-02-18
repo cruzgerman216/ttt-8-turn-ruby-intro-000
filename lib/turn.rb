@@ -11,6 +11,7 @@ def turn(board)
   index = gets.strip
   getindex = input_to_index(index)
     while valid_move?(board, getindex) == false
+      puts "Please put a valid number"
       index = gets.strip
       getindex = input_to_index(index)
     end
