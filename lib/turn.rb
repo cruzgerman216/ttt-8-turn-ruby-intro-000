@@ -18,7 +18,6 @@ def turn(board)
 
     if(board[getindex] == " ")
       board[getindex] = "X"
-
     end
 end
 
