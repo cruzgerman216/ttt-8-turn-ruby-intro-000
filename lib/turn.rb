@@ -15,6 +15,11 @@ def turn(board)
       index = gets.strip
       getindex = input_to_index(index)
     end
+
+    if(board[getindex] == " ")
+      board[getindex] = "X"
+
+    end
 end
 
 def valid_move(index)
