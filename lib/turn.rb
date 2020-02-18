@@ -19,6 +19,7 @@ def turn(board)
     if(board[getindex] == " ")
       board[getindex] = "X"
     end
+    display_board(board)
 end
 
 def valid_move(index)
